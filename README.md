@@ -25,3 +25,8 @@ uv add django --upgrade
 ```shell
 uv run django-admin help --commands
 ```
+
+### How to run `manage.py`
+```shell
+uv run python manage.py
+```
