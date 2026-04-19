@@ -21,9 +21,10 @@ uv run python -m django startproject myproject .
 uv add django --upgrade
 ```
 
-### How to display a list of all available commands
+### How to display help information and a comprehensive list of all available commands
 ```shell
-uv run django-admin help --commands
+uv run python manage.py help
+uv run python manage.py help --commands
 ```
 
 ### How to run `manage.py`
