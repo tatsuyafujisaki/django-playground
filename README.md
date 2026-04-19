@@ -10,6 +10,8 @@ curl --location --silent "https://raw.githubusercontent.com/github/gitignore/ref
 uv init .
 uv add django
 uv run python -m django startproject myproject .
+uv run python manage.py migrate
+uv run python manage.py createsuperuser
 ```
 
 ### How to upgrade Django
