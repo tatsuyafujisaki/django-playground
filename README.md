@@ -1,10 +1,5 @@
 ## Preparation
 
-### Create `.gitignore`
-```shell
-curl --location --silent "https://raw.githubusercontent.com/github/gitignore/refs/heads/main/Python.gitignore" -o .gitignore
-```
-
 ### Initialize this project
 ```shell
 uv init .
